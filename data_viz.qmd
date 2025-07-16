@@ -329,7 +329,7 @@ ggplot(data = diamonds,
 ### Save
 
 ``` r
-ggsave(filename="newplot.jpg")
+ggsave(filename="plot/newplot.jpg")
 
 # ?ggsave
 ```
