@@ -179,8 +179,8 @@ ggplot(data = blood,
 
 ```{r}
 
-vs_ex2 <-  vs %>% 
-  group_by(......) %>% 
+vs_ex2 <-  vs  |>  
+  group_by(......) |> 
   summarise(result = mean(......))
 
 ggplot(vs_ex2, aes(x = ... , y = result, group = 1)) +
@@ -296,7 +296,7 @@ ggplot(data = ...) +
 ## Themes
 
 | Themes | Description: |
-|----|----|
+|-------------------------|-----------------------------------------------|
 | theme_classic() | A classic-looking theme, with x and y axis lines and no gridlines. |
 | theme_minimal() | A minimalistic theme with no background annotations |
 | theme_grey() | Theme with a light grey background and white gridlines |
@@ -382,7 +382,7 @@ ggplot(data = ...) +
 ### Types
 
 | Types     | Description                                                    |
-|-----------|----------------------------------------------------------------|
+|-----------------------|-------------------------------------------------|
 | Bar plot  | Distribution of a categorical variable.                        |
 | Histogram | Distribution of a continuous variable.                         |
 | Box plot  | Distribution of continuous variable with box and whisker plot. |
