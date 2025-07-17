@@ -299,7 +299,6 @@ ggplot(data = ...) +
 | theme_grey() | Theme with a light grey background and white gridlines |
 | theme_bw() | A variation on theme_grey() that uses a white background and thin grey grid lines. |
 | theme_void() | A completely empty theme. |
-| theme_linedraw() | A theme with only black lines of various widths on white backgrounds, reminiscent of a line drawing. |
 | theme_light() | similar to theme_linedraw() but with light grey lines and axes, to direct more attention towards the data. |
 | theme_dark() | the dark cousin of theme_light(), with similar line sizes but a dark background. Useful to make thin coloured lines pop out. |
 
@@ -325,7 +324,7 @@ ggplot(data = diamonds,
 
 ### Save
 
-``` r
+```{r}
 ggsave(filename="plot/newplot.jpg")
 
 # ?ggsave
