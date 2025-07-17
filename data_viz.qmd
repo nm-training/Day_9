@@ -122,16 +122,13 @@ ggplot(data = blood) +
 
 ### Types
 
-| Type       | Function                   |
-|------------|----------------------------|
-| Point      | `geom_point()`             |
-| Line       | `geom_line()`              |
-| Bar        | `geom_bar()`, `geom_col()` |
-| Histogram  | `geom_histogram()`         |
-| Regression | `geom_smooth()`            |
-| Box plot   | `geom_boxplot()`           |
-| Count      | `geom_count()`             |
-| Density    | `geom_density()`           |
+| Type      | Function                   |
+|-----------|----------------------------|
+| Point     | `geom_point()`             |
+| Line      | `geom_line()`              |
+| Bar       | `geom_bar()`, `geom_col()` |
+| Histogram | `geom_histogram()`         |
+| Box plot  | `geom_boxplot()`           |
 
 ## Combine plots
 
@@ -196,7 +193,7 @@ ggplot(vs_ex2, aes(x = ... , y = result, group = 1)) +
 
 -   In other graphs such as scatter plot, line plot, smooth-line, new values are not computed.
 
--   In graphs like bar plot, box plots, histograms etc, new values are computed such as counts, proportions, summary etc.
+-   In graphs like bar chart, box plots, histograms etc, new values are computed such as counts, proportions, summary etc.
 
 ### Data
 
@@ -218,7 +215,7 @@ ggplot(data = diamonds)+
   geom_bar(mapping = aes(y=cut))
 ```
 
-## Attributes in Bar plot
+## Attributes in Bar chart
 
 ### Data
 
@@ -296,7 +293,7 @@ ggplot(data = ...) +
 ## Themes
 
 | Themes | Description: |
-|-------------------------|-----------------------------------------------|
+|-------------------------|----------------------------------------------|
 | theme_classic() | A classic-looking theme, with x and y axis lines and no gridlines. |
 | theme_minimal() | A minimalistic theme with no background annotations |
 | theme_grey() | Theme with a light grey background and white gridlines |
@@ -382,8 +379,8 @@ ggplot(data = ...) +
 ### Types
 
 | Types     | Description                                                    |
-|-----------------------|-------------------------------------------------|
-| Bar plot  | Distribution of a categorical variable.                        |
+|-----------------------|------------------------------------------------|
+| Bar chart | Distribution of a categorical variable.                        |
 | Histogram | Distribution of a continuous variable.                         |
 | Box plot  | Distribution of continuous variable with box and whisker plot. |
 
